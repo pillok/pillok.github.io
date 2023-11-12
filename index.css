@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+
+}
+
+.mainContainer{
+    background-image: url("./coding.jpeg");
+}
+
+.aboutContainer{
+
+}
+
+.link{
+    color: rgb(13, 141, 13);
+    transition: all 0.1s ease-in 0.1s;
+    width: 20%;
+}
+
+.link:hover {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(13, 141, 13);
+}
+
+ul {
+    margin: 0;
+}
+ul.dashed {
+    list-style-type: circle;
+}
+ul.dashed > li {
+    text-indent: -5px;
+}
+ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+.card {
+    background-color: rgb(246, 246, 246);
+}
